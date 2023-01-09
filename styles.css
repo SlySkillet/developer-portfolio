@@ -1,0 +1,16 @@
+html {
+  font-family: monospace;
+}
+
+nav {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
