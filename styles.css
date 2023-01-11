@@ -43,3 +43,11 @@ li {
 a {
   color: white;
 }
+
+/* Main body styles */
+
+.profile-pic {
+  width: 250px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
