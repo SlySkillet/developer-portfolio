@@ -58,7 +58,7 @@ a {
 .subtitle {
   color: rgb(45, 34, 34);
   display: flex;
-  font-size: 24px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -76,4 +76,22 @@ a {
   width: 350px;
   margin-left: 80px;
   margin-top: 100px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.filler {
+  display: flex;
+  width: 2500px;
+  margin-right: 180px;
+}
+
+.about {
+  display: flex;
+  font-size: 18px;
+  padding: 20px;
+  padding-right: 50px;
 }
