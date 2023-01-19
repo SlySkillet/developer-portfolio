@@ -20,14 +20,6 @@ body {
   box-shadow: 0 2px 4px rgb(190, 190, 190);
 }
 
-.name {
-  display: flex;
-  padding-left: 150px;
-  font-size: 60px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 .right-side-navigation-bar {
   display: flex;
   flex-direction: column;
@@ -37,7 +29,7 @@ body {
 
 .navigation-list {
   padding-right: 0;
-  padding-left: 0px;
+  padding-left: 150px;
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
@@ -47,7 +39,7 @@ body {
 }
 
 li {
-  padding-right: 20px;
+  padding-right: 50px;
   font-size: 18px;
 }
 
@@ -55,11 +47,13 @@ a {
   color: rgb(45, 34, 34);
 }
 
-.subtitle {
+.name {
   color: rgb(45, 34, 34);
   display: flex;
-  font-size: 60px;
+  font-size: 80px;
   font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .subtext {
