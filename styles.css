@@ -7,24 +7,31 @@ body {
   margin: 0;
 }
 
-/* header */
-.navigation-bar {
-  position: sticky;
-  margin: 0;
-  display: flex;
-  align-items: top;
-  justify-content: space-between;
-  height: 380px;
-  background-color: rgb(227, 213, 190);
-  color: rgb(45, 34, 34);
-  box-shadow: 0 2px 4px rgb(190, 190, 190);
+div {
+  box-sizing: border-box;
 }
 
-.right-side-navigation-bar {
+.first-container .second-container {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  padding-right: 80px;
-  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* header */
+.first-container {
+  /* display: flex; */
+  /* align-items: top; */
+  /* justify-content: space-between; */
+  /* height: 380px; */
+  background-color: rgb(227, 213, 190);
+  color: rgb(45, 34, 34);
+  /* box-shadow: 0 2px 4px rgb(190, 190, 190); */
+}
+
+.header {
+  display: flex;
+  height: 50px;
 }
 
 .navigation-list {
@@ -34,6 +41,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  height: 50px;
 
   color: rgb(205, 205, 205);
 }
@@ -47,37 +55,57 @@ a {
   color: rgb(45, 34, 34);
 }
 
-.header-text {
+.subcontainers {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.subcontainer-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-right: 80px;
+  justify-content: flex-end;
+}
+
+.subcontainer-left {
+  display: flex;
+  height: 350px;
+  width: 600px;
+}
+
+.profile-pic {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  width: 500px;
+  margin-left: 10px;
+  margin-top: 40px;
 }
 
 .name {
   color: rgb(45, 34, 34);
-  display: flex;
-  font-size: 100px;
+  /* display: flex;
+  flex: 1; */
+  font-size: 80px;
   font-weight: bolder;
-  margin-top: 230px;
-  margin-bottom: 0px;
+  margin-left: 10px;
+  margin: 0;
 }
 
 .subtext {
   font-size: 18px;
   font-weight: bold;
-  display: flex;
+  /* display: flex; */
+  /* flex: 1; */
   flex-wrap: wrap;
   margin: 0;
+  padding-bottom: 15px;
 }
 /* Main body styles */
 
-.profile-pic {
-  position: absolute;
-  top: 20px;
-  left: 80px;
-  width: 500px;
-  margin-left: 20px;
-  margin-top: 30px;
-}
-
-.main {
+.second-container {
   display: flex;
   flex-direction: row;
 }
@@ -92,7 +120,14 @@ a {
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  padding: 20px;
-  padding-right: 100px;
-  padding-left: 150px;
+  padding: 10px;
+  margin-right: 100px;
+  margin-left: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-text {
+  background-color: rgb(254, 145, 163, 0.4);
+  padding: 10px;
 }
